@@ -1,9 +1,13 @@
 #include <iostream>
 #include <locale>
+#include <string>
 
 using namespace std;
 
 int main() {
+    
+    string NomeDoColega = "Andrei";
+
     setlocale(LC_ALL, "pt_BR.utf8"); //Para usar acentuação
     cout << "\033[1;34m***************************************************\033[0m\n";
     cout << "\033[1;32m*                                                 *\033[0m\n";
